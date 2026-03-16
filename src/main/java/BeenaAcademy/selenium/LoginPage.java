@@ -34,6 +34,7 @@ public class LoginPage extends AbstractComponent{
 	public ProductDetailPage loginApplication(String username,String password) {
 		useremail.sendKeys(username);
 		Password.sendKeys(password);
+		elementToBeClickable(Login);
 		Login.click();
 		
 		return new ProductDetailPage(driver);

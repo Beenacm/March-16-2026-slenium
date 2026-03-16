@@ -46,6 +46,11 @@ public class AbstractComponent {
 		wait.until(ExpectedConditions.visibilityOf(elements));
 	}
 	
+	public void elementToBeClickable(WebElement element) {
+		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.elementToBeClickable(element));
+	}
+	
 	
 	public CartPage cartButton() {
 		cart.click();
