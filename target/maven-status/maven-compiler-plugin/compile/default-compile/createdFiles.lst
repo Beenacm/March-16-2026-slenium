@@ -1,0 +1,8 @@
+BeenaAcademy\selenium\ProductDetailPage.class
+BeenaAcademy\selenium\ConfirmatonPage.class
+BeenaAcademy\selenium\CartPage.class
+BeenaAcademy\selenium\LoginPage.class
+AbstractComponents\AbstractComponent.class
+BeenaAcademy\selenium\OrderHistoryPage.class
+BeenaAcademy\selenium\CheckOutPage.class
+resources\ExtentReporterNG.class
