@@ -1,6 +1,7 @@
 package BeenaAcademy.selenium;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -35,6 +36,9 @@ public class LoginPage extends AbstractComponent{
 		useremail.sendKeys(username);
 		Password.sendKeys(password);
 		elementToBeClickable(Login);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView(true);", Login);
+
 		Login.click();
 		
 		return new ProductDetailPage(driver);
