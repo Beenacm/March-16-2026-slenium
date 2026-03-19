@@ -14,7 +14,7 @@
         <methods>
           <include name="launchApplication"/>
           <include name="tearDown"/>
-          <include name="submitOrder"/>
+          <include name="submitOrder" invocation-numbers="0 1"/>
           <include name="orderHistory"/>
         </methods>
       </class> <!-- BeenaAcademy.selenium.SubmitOrderTest -->

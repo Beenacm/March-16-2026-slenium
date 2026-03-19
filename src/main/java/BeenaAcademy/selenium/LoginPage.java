@@ -35,16 +35,15 @@ public class LoginPage extends AbstractComponent{
 	public ProductDetailPage loginApplication(String username,String password) {
 		useremail.sendKeys(username);
 		Password.sendKeys(password);
-		elementToBeClickable(Login);
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-		js.executeScript("arguments[0].scrollIntoView(true);", Login);
-
-		Login.click();
+		
+		elementToBeClickable(Login).click();
+	
 		
 		return new ProductDetailPage(driver);
 	}
 	
 	public String errorMessege() {
+		
 		
 		waitforVisibilityOfElement(toastMessege);
 		return toastMessege.getText();

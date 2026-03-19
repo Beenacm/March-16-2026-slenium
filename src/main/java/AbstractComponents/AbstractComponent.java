@@ -3,6 +3,7 @@ package AbstractComponents;
 import java.time.Duration;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -31,8 +32,14 @@ public class AbstractComponent {
 	
 	
 	
+	
+	
 	public void threadToSleep() throws InterruptedException {
-		Thread.sleep(2000);
+		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(
+			    By.cssSelector(".toast-container, .overlay, .loading")
+			));
 	}
 	
 	
@@ -46,9 +53,9 @@ public class AbstractComponent {
 		wait.until(ExpectedConditions.visibilityOf(elements));
 	}
 	
-	public void elementToBeClickable(WebElement element) {
+	public WebElement elementToBeClickable(WebElement element) {
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.elementToBeClickable(element));
+		return wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
 	
 	

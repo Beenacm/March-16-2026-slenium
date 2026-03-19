@@ -12,6 +12,8 @@ import java.util.Properties;
 import javax.swing.tree.AbstractLayoutCache.NodeDimensions;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -29,6 +31,8 @@ import tools.jackson.databind.ObjectMapper;
 public class BaseTest {
 	public WebDriver driver;
 	public LoginPage loginPage;
+	private static final Logger log=LogManager.getLogger(BaseTest.class);
+
 
 	public WebDriver initializeDriver() throws IOException {
 
@@ -46,12 +50,20 @@ public class BaseTest {
 			ChromeOptions options = new ChromeOptions();
 
 			if (browserName.contains("headless")) {
-				options.addArguments("headless");
+				 options.addArguments("--headless=new");
+				    options.addArguments("--window-size=1920,1080");
+				    options.addArguments("--disable-gpu");
+				    options.addArguments("--no-sandbox");
 			}
 			driver = new ChromeDriver(options);
-			driver.manage().window().setSize(new Dimension(1920,1080));
 
-		} else if (browserName.equalsIgnoreCase("Firefox")) {
+		} 
+		 if (!browserName.contains("headless")) {
+	            driver.manage().window().maximize();
+	        }
+		
+		
+		else if (browserName.equalsIgnoreCase("Firefox")) {
 			driver = new FirefoxDriver();
 		}
 
@@ -86,6 +98,10 @@ public class BaseTest {
 
 		return data;
 
+	}
+	
+	public void setUp() {
+		log.info("Launching browser");
 	}
 
 	public String getScreenShot(String testCaseName, WebDriver driver) throws IOException {

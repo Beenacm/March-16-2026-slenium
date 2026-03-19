@@ -1,0 +1,68 @@
+2026-03-18 00:46:05 [TestNG-tests-1] ERROR TestComponents.BaseTest - CHECK LOG WORKING
+2026-03-18 00:46:12 [TestNG-tests-1] ERROR TestComponents.BaseTest - CHECK LOG WORKING
+2026-03-18 17:31:44 [TestNG-tests-1] ERROR TestComponents.Listeners - errorLoginValidation
+2026-03-18 17:31:44 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:errorLoginValidation
+2026-03-18 17:31:49 [TestNG-tests-1] ERROR TestComponents.Listeners - submitOrder
+2026-03-18 17:31:49 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:submitOrder
+2026-03-18 17:31:54 [TestNG-tests-1] ERROR TestComponents.Listeners - submitOrder
+2026-03-18 17:31:54 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:submitOrder
+2026-03-18 17:39:32 [TestNG-tests-1] ERROR TestComponents.Listeners - submitOrder
+2026-03-18 17:39:32 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:39:32 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:39:32 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:39:32 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:39:32 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:submitOrder
+2026-03-18 17:39:40 [TestNG-tests-1] ERROR TestComponents.Listeners - submitOrder
+2026-03-18 17:39:40 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:39:40 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:39:40 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:39:40 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:39:40 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:submitOrder
+2026-03-18 17:41:06 [TestNG-tests-1] ERROR TestComponents.Listeners - errorLoginValidation
+2026-03-18 17:41:06 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:errorLoginValidation
+2026-03-18 17:41:12 [TestNG-tests-1] ERROR TestComponents.Listeners - submitOrder
+2026-03-18 17:41:12 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:submitOrder
+2026-03-18 17:41:16 [TestNG-tests-1] ERROR TestComponents.Listeners - submitOrder
+2026-03-18 17:41:16 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:submitOrder
+2026-03-18 17:43:42 [TestNG-tests-1] ERROR TestComponents.Listeners - submitOrder
+2026-03-18 17:43:42 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:43:42 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:43:42 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:43:42 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:43:42 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:submitOrder
+2026-03-18 17:43:49 [TestNG-tests-1] ERROR TestComponents.Listeners - submitOrder
+2026-03-18 17:43:49 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:43:49 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:43:49 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:43:49 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:43:49 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:submitOrder
+2026-03-18 17:45:16 [TestNG-tests-1] ERROR TestComponents.Listeners - submitOrder
+2026-03-18 17:45:16 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:45:16 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:45:16 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:45:16 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 17:45:16 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:submitOrder
+2026-03-18 17:51:09 [TestNG-tests-1] ERROR TestComponents.Listeners - errorLoginValidation
+2026-03-18 17:51:09 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:errorLoginValidation
+2026-03-18 17:51:13 [TestNG-tests-1] ERROR TestComponents.Listeners - submitOrder
+2026-03-18 17:51:13 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:submitOrder
+2026-03-18 17:51:19 [TestNG-tests-1] ERROR TestComponents.Listeners - submitOrder
+2026-03-18 17:51:19 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:submitOrder
+2026-03-18 18:11:40 [TestNG-tests-1] ERROR TestComponents.Listeners - submitOrder
+2026-03-18 18:11:40 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 18:11:40 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 18:11:40 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 18:11:40 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 18:11:40 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:submitOrder
+2026-03-18 18:13:46 [TestNG-tests-1] ERROR TestComponents.Listeners - submitOrder
+2026-03-18 18:13:46 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 18:13:46 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 18:13:46 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 18:13:46 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 18:13:46 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:submitOrder
+2026-03-18 18:13:54 [TestNG-tests-1] ERROR TestComponents.Listeners - submitOrder
+2026-03-18 18:13:54 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 18:13:54 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 18:13:54 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 18:13:54 [TestNG-tests-1] ERROR TestComponents.Listeners - https://rahulshettyacademy.com/client/342.9e55d8a34323d7dafdac.js 0:44627 "[ngx-spinner]: Property \"type\" is missed. Please, provide animation type to \u003Cngx-spinner> component\n        and ensure css is added to angular.json file"
+2026-03-18 18:13:54 [TestNG-tests-1] ERROR TestComponents.Listeners - Test Failed:submitOrder

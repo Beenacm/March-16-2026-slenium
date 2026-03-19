@@ -1,6 +1,5 @@
 package BeenaAcademy.selenium;
 
-import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.io.IOException;
@@ -8,6 +7,8 @@ import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,7 +22,6 @@ import TestComponents.BaseTest;
 public class SubmitOrderTest extends BaseTest{
 
 	String ProductName = "ADIDAS ORIGINAL";
-	
 
 	@Test(groups={"purchase"},dataProvider="getData")
 	public void submitOrder(HashMap<String,String> input) throws InterruptedException, IOException {
@@ -48,7 +48,7 @@ public class SubmitOrderTest extends BaseTest{
 	
 
 	@Test(dependsOnMethods = "submitOrder")
-	public void orderHistory() {
+	public void orderHistory() throws InterruptedException {
 		ProductDetailPage pr =  loginPage.loginApplication("yellow@gmail.com","Mango!@#123");
 		OrderHistoryPage orderhistorypage=pr.ordersButton();
 		boolean match1 = orderhistorypage.verifyItem(ProductName);

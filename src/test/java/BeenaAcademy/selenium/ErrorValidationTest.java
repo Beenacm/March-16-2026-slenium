@@ -1,5 +1,7 @@
 package BeenaAcademy.selenium;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -7,9 +9,10 @@ import TestComponents.BaseTest;
 import TestComponents.Retry;
 
 public class ErrorValidationTest extends BaseTest {
+    private static final Logger log = LogManager.getLogger(ErrorValidationTest.class);
 
 	@Test(retryAnalyzer=Retry.class,groups="ErrorHandling")
-	public void errorLoginValidation() {
+	public void errorLoginValidation() throws InterruptedException {
 		ProductDetailPage pr = loginPage.loginApplication("yellow@gmail.com", "Mgo!@#123");
 		String errorText = loginPage.errorMessege();
 		Assert.assertEquals(errorText, "Incorrect email or password.");
@@ -28,5 +31,7 @@ public class ErrorValidationTest extends BaseTest {
 		
 
 	}
+	
+
 
 }
