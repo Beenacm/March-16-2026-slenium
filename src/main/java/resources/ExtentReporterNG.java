@@ -6,7 +6,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 public class ExtentReporterNG {
 
 	public  ExtentReports ExtentReporing() {
-		ExtentSparkReporter reporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//src//reporter");
+		ExtentSparkReporter reporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//target//extent-report//index.html");
 		reporter.config().setDocumentTitle("Automation testing");
 		reporter.config().setReportName("UI Testing");
 
